@@ -998,37 +998,17 @@ h1, .names p, .special {
   }
 }
 .names p:nth-child(1) { animation-delay: 0.5s; }
-.names p:nth-child(2) { animation-delay: 0.8s; }
-.names p:nth-child(3) { animation-delay: 1.1s; }
-.names p:nth-child(4) { animation-delay: 1.4s; }
-.names p:nth-child(5) { animation-delay: 1.7s; }
-.names p:nth-child(6) { animation-delay: 2.0s; }
-.names p:nth-child(7) { animation-delay: 2.3s; }
-.names p:nth-child(8) { animation-delay: 2.6s; }
-.names p:nth-child(9) { animation-delay: 2.9s; }
-.names p:nth-child(10) { animation-delay: 3.2s; }
-.names p:nth-child(11) { animation-delay: 3.5s; }
-.names p:nth-child(12) { animation-delay: 3.8s; }
-.names p:nth-child(13) { animation-delay: 4.1s; }
-.names p:nth-child(14) { animation-delay: 4.4s; }
-.names p:nth-child(15) { animation-delay: 4.7s; }
-.names p:nth-child(16) { animation-delay: 5.0s; }
-
 .credit {
   animation: showUp 10s ease forwards;
   animation-delay: 6s;
   opacity: 0;
 }
 .flowers {
-  transition: opacity 1.5s ease, visibility 0s linear 1.5s;
   opacity: 0;
-  visibility: hidden;
+  transition: opacity 3s ease;
 }
-.flowers.show-flower {
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0s;
-}
+
 .show-flower {
   opacity: 1;
 }
+
