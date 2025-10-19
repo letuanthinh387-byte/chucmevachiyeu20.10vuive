@@ -4,7 +4,8 @@ onload = () => {
   const flowersContainer = document.querySelector(".flowers");
   setTimeout(() => {
     flowersContainer.classList.add("show-flower");
-  }, 35000);
+  }, 15000);
 };
+
 
   
